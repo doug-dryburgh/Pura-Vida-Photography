@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower');
+html,
+body {
+    height: 100%;
+}
+
+#pageContainer {
+    background-image: url("https://i.imgsafe.org/8c70220af3.jpg");
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5em;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.2em;
+}
+
+p {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.35em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
