@@ -24,6 +24,58 @@ h2 {
 }
 
 
+/* Menu */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #818181;
+    display: block;
+    transition: 0.5s
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    font-size: 3em;
+}
+
+#social {
+    padding-top: 50px;
+    text-align: left;
+}
+
+#hamburger {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
 /* end of my stuff */
 
 ol,
