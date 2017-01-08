@@ -1,3 +1,4 @@
+/* Menu animation */
 function openNav() {
     document.getElementById("menu").style.width = "200px";
 }
