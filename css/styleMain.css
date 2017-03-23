@@ -200,3 +200,8 @@ ul {
         opacity: 0
     }
 }
+@media only screen and (max-width: 350px) {
+    h1 {
+        font-size: 4em;
+    }
+}
